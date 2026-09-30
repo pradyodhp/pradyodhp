@@ -8,24 +8,11 @@ Third-year Electronics & Telecommunication student, Army Institute of Technology
 
 **Open to paid software engineering and data analyst internships.**
 
-## Featured project
-
-### [District Health Access Lab](https://github.com/pradyodhp/district-health-access-lab)
-
-An evidence-first health-access work sample: trace the data, test assumptions and explain what a model can and cannot support.
-
-- District evidence ledger with NFHS provenance and explicit data-quality limits.
-- Hypothetical scenarios with Monte Carlo uncertainty and sensitivity analysis.
-- Constrained training allocation, robustness checks and structured decision memos.
-
-**Python · FastAPI · React · NumPy · SALib**
-
-Local portfolio work sample. Scenarios are hypothetical; real funding decisions remain on hold until the required evidence is verified.
-
-## More work
+## Projects
 
 | Project | Focus |
 | :-- | :-- |
+| [District Health Access Lab](https://github.com/pradyodhp/district-health-access-lab) | An evidence-first health-access work sample: trace the data, test assumptions and explain what a model can and cannot support. Scenarios are hypothetical; real funding decisions remain on hold until the required evidence is verified. |
 | Marketwatchdawg (private) | Stock-anomaly review prototype with explainable alerts and a web dashboard. Synthetic demo data; not investment advice. |
 | [YatraMind](https://github.com/pradyodhp/YatraMind) | Team project exploring train-induction planning and operations decision support for Kochi Metro. |
 | [DecodX-LLM](https://github.com/pradyodhp/DecodX-LLM) | Document question answering with retrieval, BM25, FAISS and a FastAPI service. |
@@ -55,6 +42,8 @@ Local portfolio work sample. Scenarios are hypothetical; real funding decisions 
 
 <p align="left">
   <img src="./1-mahoraga-wheel.gif" alt="Spinning adaptation wheel" width="160" />
+  &nbsp;&nbsp;
+  <img src="./1-manutd-crest-shine.gif" alt="Manchester United crest with a subtle animated shine" width="160" />
 </p>
 
 ---
