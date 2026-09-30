@@ -39,12 +39,12 @@ Local portfolio work sample. Scenarios are hypothetical; real funding decisions 
 ## On GitHub
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pradyodhp/pradyodhp/refs/heads/output/profile/stats-dark.svg?v=2" />
-  <img alt="Public GitHub activity statistics" src="https://raw.githubusercontent.com/pradyodhp/pradyodhp/refs/heads/output/profile/stats.svg?v=2" width="440" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pradyodhp/pradyodhp/refs/heads/output/profile/stats-dark.svg?v=3" />
+  <img alt="Public GitHub activity statistics" src="https://raw.githubusercontent.com/pradyodhp/pradyodhp/refs/heads/output/profile/stats.svg?v=3" width="440" />
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pradyodhp/pradyodhp/refs/heads/output/profile/languages-dark.svg?v=2" />
-  <img alt="Language distribution across public repositories" src="https://raw.githubusercontent.com/pradyodhp/pradyodhp/refs/heads/output/profile/languages.svg?v=2" width="320" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pradyodhp/pradyodhp/refs/heads/output/profile/languages-dark.svg?v=3" />
+  <img alt="Language distribution across public repositories" src="https://raw.githubusercontent.com/pradyodhp/pradyodhp/refs/heads/output/profile/languages.svg?v=3" width="320" />
 </picture>
 
 <sub>Public repository data. Language share describes code volume, not proficiency.</sub>
@@ -52,8 +52,8 @@ Local portfolio work sample. Scenarios are hypothetical; real funding decisions 
 ### A little motion
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pradyodhp/pradyodhp/refs/heads/output/profile/snake-dark.svg?v=2" />
-  <img alt="A snake moving through my GitHub contribution graph" src="https://raw.githubusercontent.com/pradyodhp/pradyodhp/refs/heads/output/profile/snake.svg?v=2" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pradyodhp/pradyodhp/refs/heads/output/profile/snake-dark.svg?v=3" />
+  <img alt="A snake moving through my GitHub contribution graph" src="https://raw.githubusercontent.com/pradyodhp/pradyodhp/refs/heads/output/profile/snake.svg?v=3" width="100%" />
 </picture>
 
 <sub>Generated daily from my contribution graph.</sub>
