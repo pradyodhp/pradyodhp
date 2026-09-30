@@ -34,60 +34,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate light activity card
-        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
-        with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&disable_animations=true&hide_border=true&title_color=111827&text_color=374151&icon_color=2563eb&bg_color=ffffff
-          path: dist/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fail_on_error: 'true'
-
-      - name: Generate dark activity card
-        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
-        with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&hide_rank=true&disable_animations=true&hide_border=true&title_color=f0f6fc&text_color=c9d1d9&icon_color=60a5fa&bg_color=0d1117
-          path: dist/stats-dark.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fail_on_error: 'true'
-
-      - name: Generate light language card
-        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
-        with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=5&disable_animations=true&hide_border=true&title_color=111827&text_color=374151&bg_color=ffffff
-          path: dist/languages.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fail_on_error: 'true'
-
-      - name: Generate dark language card
-        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2
-        with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=5&disable_animations=true&hide_border=true&title_color=f0f6fc&text_color=c9d1d9&bg_color=0d1117
-          path: dist/languages-dark.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fail_on_error: 'true'
-
-      - name: Make stats cards static in embedded image views
-        shell: bash
-        run: |
-          python3 - <<'PYCODE'
-          from pathlib import Path
-          for path in Path("dist").glob("*.svg"):
-              if path.name.startswith("snake"):
-                  continue
-              svg = path.read_text()
-              svg = svg.replace("</style>", "* { animation: none !important; } .stagger { opacity: 1 !important; }</style>")
-              path.write_text(svg)
-          PYCODE
-
       - name: Publish generated SVGs to the disposable output branch
         shell: bash
         run: |
           set -euo pipefail
-          for file in snake.svg snake-dark.svg stats.svg stats-dark.svg languages.svg languages-dark.svg; do
+          for file in snake.svg snake-dark.svg; do
             test -s "dist/$file"
           done
           saved="$(mktemp -d)"
