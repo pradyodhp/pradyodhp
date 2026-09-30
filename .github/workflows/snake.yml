@@ -70,6 +70,19 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: 'true'
 
+      - name: Make stats cards static in embedded image views
+        shell: bash
+        run: |
+          python3 - <<'PYCODE'
+          from pathlib import Path
+          for path in Path("dist").glob("*.svg"):
+              if path.name.startswith("snake"):
+                  continue
+              svg = path.read_text()
+              svg = svg.replace("</style>", "* { animation: none !important; } .stagger { opacity: 1 !important; }</style>")
+              path.write_text(svg)
+          PYCODE
+
       - name: Publish generated SVGs to the disposable output branch
         shell: bash
         run: |
