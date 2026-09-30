@@ -26,6 +26,7 @@ Local portfolio work sample. Scenarios are hypothetical; real funding decisions 
 
 | Project | Focus |
 | :-- | :-- |
+| Marketwatchdawg (private) | Stock-anomaly review prototype with explainable alerts and a web dashboard. Synthetic demo data; not investment advice. |
 | [YatraMind](https://github.com/pradyodhp/YatraMind) | Team project exploring train-induction planning and operations decision support for Kochi Metro. |
 | [DecodX-LLM](https://github.com/pradyodhp/DecodX-LLM) | Document question answering with retrieval, BM25, FAISS and a FastAPI service. |
 | [Calorie Calculator](https://github.com/pradyodhp/caloriecalculator) | Nutrition API integration, intake tracking and a responsive web interface. |
@@ -36,18 +37,12 @@ Local portfolio work sample. Scenarios are hypothetical; real funding decisions 
 **Analyse:** NumPy, simulation, sensitivity analysis  
 **Retrieve & verify:** BM25, FAISS, pytest, Git
 
-## On GitHub
+## Tools I build with
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pradyodhp/pradyodhp/refs/heads/output/profile/stats-dark.svg?v=3" />
-  <img alt="Public GitHub activity statistics" src="https://raw.githubusercontent.com/pradyodhp/pradyodhp/refs/heads/output/profile/stats.svg?v=3" width="440" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py,fastapi,react,js,git&theme=dark" />
+  <img alt="Python, FastAPI, React, JavaScript and Git" src="https://skillicons.dev/icons?i=py,fastapi,react,js,git&theme=light" />
 </picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pradyodhp/pradyodhp/refs/heads/output/profile/languages-dark.svg?v=3" />
-  <img alt="Language distribution across public repositories" src="https://raw.githubusercontent.com/pradyodhp/pradyodhp/refs/heads/output/profile/languages.svg?v=3" width="320" />
-</picture>
-
-<sub>Public repository data. Language share describes code volume, not proficiency.</sub>
 
 ### A little motion
 
@@ -57,6 +52,10 @@ Local portfolio work sample. Scenarios are hypothetical; real funding decisions 
 </picture>
 
 <sub>Generated daily from my contribution graph.</sub>
+
+<p align="left">
+  <img src="./1-mahoraga-wheel.gif" alt="Spinning adaptation wheel" width="160" />
+</p>
 
 ---
 
