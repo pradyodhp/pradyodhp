@@ -38,12 +38,8 @@ Third-year Electronics & Telecommunication student, Army Institute of Technology
   <img alt="A snake moving through my GitHub contribution graph" src="https://raw.githubusercontent.com/pradyodhp/pradyodhp/refs/heads/output/profile/snake.svg?v=3" width="100%" />
 </picture>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-green.svg" />
-  <img alt="A 3D view of my GitHub contribution graph" src="./profile-3d-contrib/profile-green.svg" width="100%" />
-</picture>
 
-<sub>Contribution visuals generated daily from my GitHub activity.</sub>
+<sub>Contribution snake generated daily from my GitHub activity.</sub>
 
 <p align="left">
   <img src="./1-mahoraga-wheel.gif" alt="Spinning adaptation wheel" width="160" />
@@ -51,12 +47,6 @@ Third-year Electronics & Telecommunication student, Army Institute of Technology
   <img src="./1-manutd-crest-shine.gif" alt="Manchester United crest with a subtle animated shine" width="160" />
 </p>
 
-### A joke while you scroll
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-jokes.vercel.app/api?theme=dark&hideBorder" />
-  <img alt="A random programming joke" src="https://readme-jokes.vercel.app/api?theme=graywhite&hideBorder" />
-</picture>
 
 ---
 
