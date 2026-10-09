@@ -8,6 +8,10 @@ Third-year Electronics & Telecommunication student, Army Institute of Technology
 
 **Open to paid software engineering and data analyst internships.**
 
+<p align="center">
+  <img src="./1-morpheus-matrix.gif" alt="Matrix code rain settling into Morpheus offering the red pill and the blue pill" width="100%" />
+</p>
+
 ## Projects
 
 | Project | Focus |
